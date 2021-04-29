@@ -128,8 +128,4 @@ extension Nutrition: Equatable, AdditiveArithmetic, Scalable {
                          protein: lhs.protein != nil ? lhs.protein! * rhs : nil)
     }
     
-    public static func / (lhs: Nutrition, rhs: Double) -> Nutrition {
-        return lhs * (1 / rhs)
-    }
-    
 }
