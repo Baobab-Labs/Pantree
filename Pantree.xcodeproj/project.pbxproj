@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1325FD18262A3351008180A3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD17262A3351008180A3 /* Errors.swift */; };
+		1325FD1D262A3515008180A3 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD1C262A3515008180A3 /* Logging.swift */; };
+		1325FD25262A372F008180A3 /* BoundedNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD24262A372F008180A3 /* BoundedNumberTests.swift */; };
+		1325FD2D262A58E9008180A3 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD2C262A58E9008180A3 /* Ingredient.swift */; };
+		1325FD32262A6416008180A3 /* FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD31262A6416008180A3 /* FoodTests.swift */; };
+		136BC2E126291382009672A0 /* PantreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC2E026291382009672A0 /* PantreeApp.swift */; };
+		136BC2E326291382009672A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC2E226291382009672A0 /* ContentView.swift */; };
+		136BC2E526291384009672A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136BC2E426291384009672A0 /* Assets.xcassets */; };
+		136BC2E826291384009672A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136BC2E726291384009672A0 /* Preview Assets.xcassets */; };
+		136BC2FE26291384009672A0 /* PantreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC2FD26291384009672A0 /* PantreeUITests.swift */; };
+		136BC31226291487009672A0 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC31126291487009672A0 /* Recipe.swift */; };
+		136BC31B262915DC009672A0 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC31A262915DC009672A0 /* Food.swift */; };
+		136BC32326291660009672A0 /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC32226291660009672A0 /* Nutrition.swift */; };
+		136BC32826291EAD009672A0 /* UnitFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC32726291EAD009672A0 /* UnitFood.swift */; };
+		136BC33A262927BB009672A0 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC339262927BB009672A0 /* Scalable.swift */; };
+		136BC343262A1180009672A0 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC342262A1180009672A0 /* Math.swift */; };
+		136BC34B262A1764009672A0 /* NutritionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC34A262A1764009672A0 /* NutritionTests.swift */; };
+		136BC354262A20C5009672A0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC353262A20C5009672A0 /* Double.swift */; };
+		136BC35D262A2467009672A0 /* BoundedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC35C262A2467009672A0 /* BoundedNumber.swift */; };
+		13E1A634262A68040058E8A6 /* IngredientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E1A633262A68040058E8A6 /* IngredientTests.swift */; };
+		13E1A639262D1B5E0058E8A6 /* RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E1A638262D1B5E0058E8A6 /* RecipeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		136BC2EF26291384009672A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136BC2D526291382009672A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136BC2DC26291382009672A0;
+			remoteInfo = RecipeBook;
+		};
+		136BC2FA26291384009672A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136BC2D526291382009672A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136BC2DC26291382009672A0;
+			remoteInfo = RecipeBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1325FD17262A3351008180A3 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		1325FD1C262A3515008180A3 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		1325FD24262A372F008180A3 /* BoundedNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundedNumberTests.swift; sourceTree = "<group>"; };
+		1325FD2C262A58E9008180A3 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		1325FD31262A6416008180A3 /* FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTests.swift; sourceTree = "<group>"; };
+		136BC2DD26291382009672A0 /* Pantree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pantree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		136BC2E026291382009672A0 /* PantreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantreeApp.swift; sourceTree = "<group>"; };
+		136BC2E226291382009672A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		136BC2E426291384009672A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136BC2E726291384009672A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		136BC2E926291384009672A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136BC2EE26291384009672A0 /* PantreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		136BC2F426291384009672A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136BC2F926291384009672A0 /* PantreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		136BC2FD26291384009672A0 /* PantreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantreeUITests.swift; sourceTree = "<group>"; };
+		136BC2FF26291384009672A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136BC31126291487009672A0 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		136BC31A262915DC009672A0 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		136BC32226291660009672A0 /* Nutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
+		136BC32726291EAD009672A0 /* UnitFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitFood.swift; sourceTree = "<group>"; };
+		136BC339262927BB009672A0 /* Scalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scalable.swift; sourceTree = "<group>"; };
+		136BC342262A1180009672A0 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		136BC34A262A1764009672A0 /* NutritionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTests.swift; sourceTree = "<group>"; };
+		136BC353262A20C5009672A0 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		136BC35C262A2467009672A0 /* BoundedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundedNumber.swift; sourceTree = "<group>"; };
+		13E1A633262A68040058E8A6 /* IngredientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTests.swift; sourceTree = "<group>"; };
+		13E1A638262D1B5E0058E8A6 /* RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136BC2DA26291382009672A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136BC2EB26291384009672A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136BC2F626291384009672A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1325FD36262A6420008180A3 /* Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1325FD24262A372F008180A3 /* BoundedNumberTests.swift */,
+				136BC34A262A1764009672A0 /* NutritionTests.swift */,
+				1325FD31262A6416008180A3 /* FoodTests.swift */,
+				13E1A633262A68040058E8A6 /* IngredientTests.swift */,
+				13E1A638262D1B5E0058E8A6 /* RecipeTests.swift */,
+			);
+			path = "Model Tests";
+			sourceTree = "<group>";
+		};
+		136BC2D426291382009672A0 = {
+			isa = PBXGroup;
+			children = (
+				136BC2DF26291382009672A0 /* Pantree */,
+				136BC2F126291384009672A0 /* PantreeTests */,
+				136BC2FC26291384009672A0 /* PantreeUITests */,
+				136BC2DE26291382009672A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		136BC2DE26291382009672A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136BC2DD26291382009672A0 /* Pantree.app */,
+				136BC2EE26291384009672A0 /* PantreeTests.xctest */,
+				136BC2F926291384009672A0 /* PantreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136BC2DF26291382009672A0 /* Pantree */ = {
+			isa = PBXGroup;
+			children = (
+				136BC2E026291382009672A0 /* PantreeApp.swift */,
+				136BC2E426291384009672A0 /* Assets.xcassets */,
+				136BC2E926291384009672A0 /* Info.plist */,
+				136BC2E626291384009672A0 /* Preview Content */,
+				136BC30F262913A2009672A0 /* Views */,
+				136BC30E26291395009672A0 /* Models */,
+				136BC310262913DC009672A0 /* Controllers */,
+				136BC341262A115D009672A0 /* Utilities */,
+			);
+			path = Pantree;
+			sourceTree = "<group>";
+		};
+		136BC2E626291384009672A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				136BC2E726291384009672A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		136BC2F126291384009672A0 /* PantreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				136BC2F426291384009672A0 /* Info.plist */,
+				1325FD36262A6420008180A3 /* Model Tests */,
+			);
+			path = PantreeTests;
+			sourceTree = "<group>";
+		};
+		136BC2FC26291384009672A0 /* PantreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				136BC2FD26291384009672A0 /* PantreeUITests.swift */,
+				136BC2FF26291384009672A0 /* Info.plist */,
+			);
+			path = PantreeUITests;
+			sourceTree = "<group>";
+		};
+		136BC30E26291395009672A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				136BC338262927B1009672A0 /* Protocols */,
+				136BC31126291487009672A0 /* Recipe.swift */,
+				136BC31A262915DC009672A0 /* Food.swift */,
+				136BC32226291660009672A0 /* Nutrition.swift */,
+				136BC32726291EAD009672A0 /* UnitFood.swift */,
+				1325FD2C262A58E9008180A3 /* Ingredient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		136BC30F262913A2009672A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				136BC2E226291382009672A0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		136BC310262913DC009672A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		136BC338262927B1009672A0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				136BC339262927BB009672A0 /* Scalable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		136BC341262A115D009672A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				136BC35B262A2458009672A0 /* Property Wrappers */,
+				136BC352262A20AB009672A0 /* Extensions */,
+				136BC342262A1180009672A0 /* Math.swift */,
+				1325FD17262A3351008180A3 /* Errors.swift */,
+				1325FD1C262A3515008180A3 /* Logging.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		136BC352262A20AB009672A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				136BC353262A20C5009672A0 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		136BC35B262A2458009672A0 /* Property Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				136BC35C262A2467009672A0 /* BoundedNumber.swift */,
+			);
+			path = "Property Wrappers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136BC2DC26291382009672A0 /* Pantree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136BC30226291384009672A0 /* Build configuration list for PBXNativeTarget "Pantree" */;
+			buildPhases = (
+				136BC2D926291382009672A0 /* Sources */,
+				136BC2DA26291382009672A0 /* Frameworks */,
+				136BC2DB26291382009672A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pantree;
+			productName = RecipeBook;
+			productReference = 136BC2DD26291382009672A0 /* Pantree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		136BC2ED26291384009672A0 /* PantreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136BC30526291384009672A0 /* Build configuration list for PBXNativeTarget "PantreeTests" */;
+			buildPhases = (
+				136BC2EA26291384009672A0 /* Sources */,
+				136BC2EB26291384009672A0 /* Frameworks */,
+				136BC2EC26291384009672A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136BC2F026291384009672A0 /* PBXTargetDependency */,
+			);
+			name = PantreeTests;
+			productName = RecipeBookTests;
+			productReference = 136BC2EE26291384009672A0 /* PantreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		136BC2F826291384009672A0 /* PantreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136BC30826291384009672A0 /* Build configuration list for PBXNativeTarget "PantreeUITests" */;
+			buildPhases = (
+				136BC2F526291384009672A0 /* Sources */,
+				136BC2F626291384009672A0 /* Frameworks */,
+				136BC2F726291384009672A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136BC2FB26291384009672A0 /* PBXTargetDependency */,
+			);
+			name = PantreeUITests;
+			productName = RecipeBookUITests;
+			productReference = 136BC2F926291384009672A0 /* PantreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136BC2D526291382009672A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					136BC2DC26291382009672A0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					136BC2ED26291384009672A0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 136BC2DC26291382009672A0;
+					};
+					136BC2F826291384009672A0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 136BC2DC26291382009672A0;
+					};
+				};
+			};
+			buildConfigurationList = 136BC2D826291382009672A0 /* Build configuration list for PBXProject "Pantree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 136BC2D426291382009672A0;
+			productRefGroup = 136BC2DE26291382009672A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136BC2DC26291382009672A0 /* Pantree */,
+				136BC2ED26291384009672A0 /* PantreeTests */,
+				136BC2F826291384009672A0 /* PantreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136BC2DB26291382009672A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136BC2E826291384009672A0 /* Preview Assets.xcassets in Resources */,
+				136BC2E526291384009672A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136BC2EC26291384009672A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136BC2F726291384009672A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136BC2D926291382009672A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136BC33A262927BB009672A0 /* Scalable.swift in Sources */,
+				1325FD2D262A58E9008180A3 /* Ingredient.swift in Sources */,
+				136BC31B262915DC009672A0 /* Food.swift in Sources */,
+				136BC31226291487009672A0 /* Recipe.swift in Sources */,
+				136BC32326291660009672A0 /* Nutrition.swift in Sources */,
+				136BC2E326291382009672A0 /* ContentView.swift in Sources */,
+				136BC2E126291382009672A0 /* PantreeApp.swift in Sources */,
+				136BC35D262A2467009672A0 /* BoundedNumber.swift in Sources */,
+				1325FD1D262A3515008180A3 /* Logging.swift in Sources */,
+				1325FD18262A3351008180A3 /* Errors.swift in Sources */,
+				136BC32826291EAD009672A0 /* UnitFood.swift in Sources */,
+				136BC354262A20C5009672A0 /* Double.swift in Sources */,
+				136BC343262A1180009672A0 /* Math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136BC2EA26291384009672A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E1A634262A68040058E8A6 /* IngredientTests.swift in Sources */,
+				1325FD25262A372F008180A3 /* BoundedNumberTests.swift in Sources */,
+				13E1A639262D1B5E0058E8A6 /* RecipeTests.swift in Sources */,
+				136BC34B262A1764009672A0 /* NutritionTests.swift in Sources */,
+				1325FD32262A6416008180A3 /* FoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136BC2F526291384009672A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136BC2FE26291384009672A0 /* PantreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		136BC2F026291384009672A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136BC2DC26291382009672A0 /* Pantree */;
+			targetProxy = 136BC2EF26291384009672A0 /* PBXContainerItemProxy */;
+		};
+		136BC2FB26291384009672A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136BC2DC26291382009672A0 /* Pantree */;
+			targetProxy = 136BC2FA26291384009672A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		136BC30026291384009672A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		136BC30126291384009672A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		136BC30326291384009672A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pantree/Preview Content\"";
+				DEVELOPMENT_TEAM = AZALPYZU3U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pantree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhollar.Pantree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		136BC30426291384009672A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pantree/Preview Content\"";
+				DEVELOPMENT_TEAM = AZALPYZU3U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pantree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhollar.Pantree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		136BC30626291384009672A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZALPYZU3U;
+				INFOPLIST_FILE = PantreeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhollar.PantreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantree.app/Pantree";
+			};
+			name = Debug;
+		};
+		136BC30726291384009672A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZALPYZU3U;
+				INFOPLIST_FILE = PantreeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhollar.PantreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantree.app/Pantree";
+			};
+			name = Release;
+		};
+		136BC30926291384009672A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZALPYZU3U;
+				INFOPLIST_FILE = PantreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhollar.PantreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pantree;
+			};
+			name = Debug;
+		};
+		136BC30A26291384009672A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZALPYZU3U;
+				INFOPLIST_FILE = PantreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhollar.PantreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pantree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136BC2D826291382009672A0 /* Build configuration list for PBXProject "Pantree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136BC30026291384009672A0 /* Debug */,
+				136BC30126291384009672A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136BC30226291384009672A0 /* Build configuration list for PBXNativeTarget "Pantree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136BC30326291384009672A0 /* Debug */,
+				136BC30426291384009672A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136BC30526291384009672A0 /* Build configuration list for PBXNativeTarget "PantreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136BC30626291384009672A0 /* Debug */,
+				136BC30726291384009672A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136BC30826291384009672A0 /* Build configuration list for PBXNativeTarget "PantreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136BC30926291384009672A0 /* Debug */,
+				136BC30A26291384009672A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136BC2D526291382009672A0 /* Project object */;
+}
