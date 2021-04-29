@@ -23,7 +23,7 @@ public struct BoundedNumber {
                     number = clampedValue
                     Logging.logger.trace("Value '\(value)' clamped to '\(clampedValue)'")
                 } catch ArithmeticError.InvalidBounds {
-                    Logging.logger.error("Attempted to clamp value with invalid bounds.")
+                    Logging.logger.error("Attempted to clamp value with invalid bounds. Result is `nil`.")
                     number = nil
                 } catch {
                     Logging.logger.error("Unexpected exception: \(error.localizedDescription)")

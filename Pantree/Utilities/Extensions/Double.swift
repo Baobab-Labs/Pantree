@@ -15,7 +15,7 @@ extension Double {
     ///   - min: The minimum bound
     func clamp(between min: Double, _ max: Double) throws -> Double {
         if max < min {
-            throw ArithmeticError.InvalidBounds
+            throw ArithmeticError.InvalidBounds(min, max)
         }
         if self < min {
             return min
