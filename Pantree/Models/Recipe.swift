@@ -9,9 +9,29 @@ import Foundation
 
 public class Recipe : Codable {
     
+    /// The name of the Recipe
     public var name: String
+    
+    /// Each ingredient of the Recipe
     public var ingredients: [Ingredient]
+    
+    /// Each step of the Recipe
     public var instructions: [String]
+    
+    /// The aggregate nutrition of the `ingredients` of the Recipe
+    ///
+    /// The aggregate is the sum of non-`nil` nutritional information provided by `ingredients`. Keep this in mind when using this information, as it can be
+    /// potentially misleading to present this value as if every ingredient has nutritional information provided. This value will be non-`nil` even if only one of the
+    /// `ingredients` are non-`nil`.
+    public var nutrition: Nutrition? {
+        get {
+            let sum = ingredients.reduce(Nutrition.zero, { lhs, rhs in
+                lhs + (rhs.nutrition ?? Nutrition.zero)
+            })
+            if sum == Nutrition.zero { return nil }
+            return sum
+        }
+    }
     
     public init(named name: String, ingredients: [Ingredient], instructions: [String]) {
         self.name = name

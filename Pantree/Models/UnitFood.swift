@@ -13,6 +13,15 @@ public class UnitFood : Dimension {
         return UnitFood.gram as! Self
     }
     
+    // MARK: - Generic Measures
+    // These measures necessarily do not provide useful conversions, but nevertheless will be used in recipes when
+    // "measuring" food. An example use-case is a recipe which asks for "1 apple" -- most people will not know that X
+    // grams of apple is one apple, so the unit becomes nondescript.
+    //
+    // For all of these measures, use a coefficient of 1 for the conversion. No application, without additional data,
+    // will be able to convert "1 unit X" to "Y grams X" meaningfully, so we will use a 1:1 ratio as a placeholder.
+    static let genericUnit = UnitFood(symbol: "unit", converter: UnitConverterLinear(coefficient: 1))
+    
     // MARK: - Weight Measures
     static let gram = UnitFood(symbol: "g", converter: UnitConverterLinear(coefficient: 1))
     static let ounce = UnitFood(symbol: "oz", converter: UnitConverterLinear(coefficient: 28.35))
