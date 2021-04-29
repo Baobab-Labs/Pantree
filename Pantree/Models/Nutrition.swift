@@ -8,7 +8,7 @@
 import Foundation
 
 /// Container for nutritional information readily found on FDA food labels
-public final class Nutrition : Codable {
+public struct Nutrition : Codable {
     
     // MARK: - Properties
     

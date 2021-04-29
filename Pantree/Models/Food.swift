@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class Food : Codable {
+public struct Food : Codable {
     
     // MARK: - Properties
     

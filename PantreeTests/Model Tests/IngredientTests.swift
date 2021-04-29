@@ -25,7 +25,7 @@ class IngredientTests: XCTestCase {
                         canonicalNutrition: nutrition,
                         canonicalMeasurement: Measurement<UnitFood>(value: 1, unit: .tablespoon))
         
-        let ingredient = Ingredient(food, amount: food.canonicalMeasurement!)
+        var ingredient = Ingredient(food, amount: food.canonicalMeasurement!)
         XCTAssertEqual(ingredient.nutrition, food.canonicalNutrition!)
         
         ingredient.amount = Measurement<UnitFood>(value: 100, unit: UnitFood.baseUnit())

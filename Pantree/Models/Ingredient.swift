@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class Ingredient : Codable {
+public struct Ingredient : Codable {
     
     public var food: Food
     
