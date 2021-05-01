@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// A `Recipe` is a collection of `Ingredient`s and instructions that, together, create a fulll demonstration of how to cook a dish.
 public struct Recipe : Codable {
     
     /// The name of the Recipe

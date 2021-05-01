@@ -7,6 +7,8 @@
 
 import Foundation
 
+/// `Ingredient`s are the building blocks of any `Recipe`. They contain information about the underlying `Food` and specify some measurement of that
+/// `Food` to be consumed in the `Recipe`.
 public struct Ingredient : Codable {
     
     public var food: Food

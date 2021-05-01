@@ -26,6 +26,7 @@
 		136BC34B262A1764009672A0 /* NutritionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC34A262A1764009672A0 /* NutritionTests.swift */; };
 		136BC354262A20C5009672A0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC353262A20C5009672A0 /* Double.swift */; };
 		136BC35D262A2467009672A0 /* BoundedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC35C262A2467009672A0 /* BoundedNumber.swift */; };
+		13B55B5F263B6B96005B97D7 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B55B5E263B6B96005B97D7 /* Stubbable.swift */; };
 		13E1A634262A68040058E8A6 /* IngredientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E1A633262A68040058E8A6 /* IngredientTests.swift */; };
 		13E1A639262D1B5E0058E8A6 /* RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E1A638262D1B5E0058E8A6 /* RecipeTests.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		136BC34A262A1764009672A0 /* NutritionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTests.swift; sourceTree = "<group>"; };
 		136BC353262A20C5009672A0 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		136BC35C262A2467009672A0 /* BoundedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundedNumber.swift; sourceTree = "<group>"; };
+		13B55B5E263B6B96005B97D7 /* Stubbable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubbable.swift; sourceTree = "<group>"; };
 		13E1A633262A68040058E8A6 /* IngredientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTests.swift; sourceTree = "<group>"; };
 		13E1A638262D1B5E0058E8A6 /* RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				136BC339262927BB009672A0 /* Scalable.swift */,
+				13B55B5E263B6B96005B97D7 /* Stubbable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				136BC33A262927BB009672A0 /* Scalable.swift in Sources */,
 				1325FD2D262A58E9008180A3 /* Ingredient.swift in Sources */,
 				136BC31B262915DC009672A0 /* Food.swift in Sources */,
+				13B55B5F263B6B96005B97D7 /* Stubbable.swift in Sources */,
 				136BC31226291487009672A0 /* Recipe.swift in Sources */,
 				136BC32326291660009672A0 /* Nutrition.swift in Sources */,
 				136BC2E326291382009672A0 /* ContentView.swift in Sources */,
