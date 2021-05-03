@@ -59,6 +59,25 @@ public struct Nutrition : Codable {
     
 }
 
+extension Nutrition : Hashable { }
+
+extension Nutrition : Stubbable {
+    
+    public static func stub() -> Nutrition {
+        return Nutrition(calories: Double.random(in: 0...2000),
+                         totalFat: Double.random(in: 0...20),
+                         saturatedFat: Double.random(in: 0...15),
+                         transFat: Double.random(in: 0...5),
+                         cholesterol: Double.random(in: 0...200),
+                         sodium: Double.random(in: 0...500),
+                         carbohydrates: Double.random(in: 0...50),
+                         fiber: Double.random(in: 0...10),
+                         sugar: Double.random(in: 0...20),
+                         protein: Double.random(in: 0...20))
+    }
+
+}
+
 // MARK: - Math Operators
 
 extension Nutrition: Equatable, AdditiveArithmetic, Scalable {

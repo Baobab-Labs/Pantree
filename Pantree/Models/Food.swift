@@ -14,9 +14,11 @@ import Foundation
 ///
 /// Use `Food` as a representation of foods available to a user -- whether that is what's currently stocked in their pantry, or what they are familiar cooking with. Use
 /// `Ingredient` to build a `Recipe`.
-public struct Food : Codable {
+public struct Food : Identifiable {
     
     // MARK: - Properties
+    
+    public let id: UUID
     
     /// The name of the food
     public var name: String
@@ -32,12 +34,16 @@ public struct Food : Codable {
     public init(named name: String,
                 canonicalNutrition: Nutrition? = nil,
                 canonicalMeasurement: Measurement<UnitFood>? = nil) {
+        self.id = UUID()
         self.name = name
         self.canonicalNutrition = canonicalNutrition
         self.canonicalMeasurement = canonicalMeasurement
     }
     
 }
+
+extension Food : Codable { }
+extension Food : Hashable { }
 
 extension Food : Equatable {
     
@@ -51,29 +57,11 @@ extension Food : Equatable {
 
 extension Food : Stubbable {
     
-    public static var stub: Food {
-        let nutrition = Nutrition(calories: 102,
-                                  totalFat: 11.52,
-                                  saturatedFat: 7.29,
-                                  transFat: 0,
-                                  cholesterol: 30.53,
-                                  sodium: 1.56,
-                                  carbohydrates: 0.01,
-                                  fiber: 0,
-                                  sugar: 0.01,
-                                  protein: 0.12)
-        let food = Food(named: "Butter",
-                        canonicalNutrition: nutrition,
-                        canonicalMeasurement: Measurement<UnitFood>(value: 1, unit: .tablespoon))
-        return food
-    }
-    
-    public static var stubs: [Food] {
-        return [
-            Food.stub,
-            Food(named: "Garlic"),
-            Food(named: "Salmon")
-        ]
+    public static func stub() -> Food {
+        return Food(named: "Stubbed Food",
+                    canonicalNutrition: Nutrition.stub(),
+                    canonicalMeasurement: Measurement<UnitFood>(value: Double.random(in: 0...10),
+                                                                unit: UnitFood.allUnits().randomElement() ?? .gram))
     }
     
 }

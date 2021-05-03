@@ -12,8 +12,8 @@
 		1325FD25262A372F008180A3 /* BoundedNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD24262A372F008180A3 /* BoundedNumberTests.swift */; };
 		1325FD2D262A58E9008180A3 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD2C262A58E9008180A3 /* Ingredient.swift */; };
 		1325FD32262A6416008180A3 /* FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325FD31262A6416008180A3 /* FoodTests.swift */; };
+		1352A20B263B60DE00C74DE8 /* FoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352A20A263B60DE00C74DE8 /* FoodController.swift */; };
 		136BC2E126291382009672A0 /* PantreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC2E026291382009672A0 /* PantreeApp.swift */; };
-		136BC2E326291382009672A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC2E226291382009672A0 /* ContentView.swift */; };
 		136BC2E526291384009672A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136BC2E426291384009672A0 /* Assets.xcassets */; };
 		136BC2E826291384009672A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136BC2E726291384009672A0 /* Preview Assets.xcassets */; };
 		136BC2FE26291384009672A0 /* PantreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC2FD26291384009672A0 /* PantreeUITests.swift */; };
@@ -26,6 +26,7 @@
 		136BC34B262A1764009672A0 /* NutritionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC34A262A1764009672A0 /* NutritionTests.swift */; };
 		136BC354262A20C5009672A0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC353262A20C5009672A0 /* Double.swift */; };
 		136BC35D262A2467009672A0 /* BoundedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136BC35C262A2467009672A0 /* BoundedNumber.swift */; };
+		13B55B5D263B6976005B97D7 /* FoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B55B5C263B6976005B97D7 /* FoodsView.swift */; };
 		13B55B5F263B6B96005B97D7 /* Stubbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B55B5E263B6B96005B97D7 /* Stubbable.swift */; };
 		13E1A634262A68040058E8A6 /* IngredientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E1A633262A68040058E8A6 /* IngredientTests.swift */; };
 		13E1A639262D1B5E0058E8A6 /* RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E1A638262D1B5E0058E8A6 /* RecipeTests.swift */; };
@@ -54,9 +55,9 @@
 		1325FD24262A372F008180A3 /* BoundedNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundedNumberTests.swift; sourceTree = "<group>"; };
 		1325FD2C262A58E9008180A3 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		1325FD31262A6416008180A3 /* FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTests.swift; sourceTree = "<group>"; };
+		1352A20A263B60DE00C74DE8 /* FoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodController.swift; sourceTree = "<group>"; };
 		136BC2DD26291382009672A0 /* Pantree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pantree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136BC2E026291382009672A0 /* PantreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantreeApp.swift; sourceTree = "<group>"; };
-		136BC2E226291382009672A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		136BC2E426291384009672A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136BC2E726291384009672A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		136BC2E926291384009672A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		136BC34A262A1764009672A0 /* NutritionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTests.swift; sourceTree = "<group>"; };
 		136BC353262A20C5009672A0 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		136BC35C262A2467009672A0 /* BoundedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundedNumber.swift; sourceTree = "<group>"; };
+		13B55B5C263B6976005B97D7 /* FoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsView.swift; sourceTree = "<group>"; };
 		13B55B5E263B6B96005B97D7 /* Stubbable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubbable.swift; sourceTree = "<group>"; };
 		13E1A633262A68040058E8A6 /* IngredientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTests.swift; sourceTree = "<group>"; };
 		13E1A638262D1B5E0058E8A6 /* RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTests.swift; sourceTree = "<group>"; };
@@ -193,7 +195,7 @@
 		136BC30F262913A2009672A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				136BC2E226291382009672A0 /* ContentView.swift */,
+				13B55B5C263B6976005B97D7 /* FoodsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +203,7 @@
 		136BC310262913DC009672A0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1352A20A263B60DE00C74DE8 /* FoodController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -377,10 +380,11 @@
 				13B55B5F263B6B96005B97D7 /* Stubbable.swift in Sources */,
 				136BC31226291487009672A0 /* Recipe.swift in Sources */,
 				136BC32326291660009672A0 /* Nutrition.swift in Sources */,
-				136BC2E326291382009672A0 /* ContentView.swift in Sources */,
 				136BC2E126291382009672A0 /* PantreeApp.swift in Sources */,
+				13B55B5D263B6976005B97D7 /* FoodsView.swift in Sources */,
 				136BC35D262A2467009672A0 /* BoundedNumber.swift in Sources */,
 				1325FD1D262A3515008180A3 /* Logging.swift in Sources */,
+				1352A20B263B60DE00C74DE8 /* FoodController.swift in Sources */,
 				1325FD18262A3351008180A3 /* Errors.swift in Sources */,
 				136BC32826291EAD009672A0 /* UnitFood.swift in Sources */,
 				136BC354262A20C5009672A0 /* Double.swift in Sources */,

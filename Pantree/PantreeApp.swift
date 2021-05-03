@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct PantreeApp: App {
+    
+    @ObservedObject private var foodController: FoodController = FoodController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FoodsView(foods: $foodController.foods) {
+                foodController.saveFoods()
+            }
+            .onAppear {
+                foodController.loadFoods()
+            }
         }
     }
 }

@@ -10,10 +10,35 @@ import Foundation
 /// Types conforming to `Stubbable` provide data stubs, useful as predictable input for unit testing or when mocking user interfaces.
 public protocol Stubbable {
     
-    /// A singular instance of the `Stubbable` type
-    static var stub: Self { get }
+    static func stub() -> Self
     
-    /// A collection of instances of the `Stubbable` type
-    static var stubs: [Self] { get }
-    
+}
+
+extension Stubbable {
+    func setting<T>(_ keyPath: WritableKeyPath<Self, T>,
+                    to value: T) -> Self {
+        var stub = self
+        stub[keyPath: keyPath] = value
+        return stub
+    }
+}
+
+extension Array where Element: Stubbable {
+    static func stub(count: Int) -> Array {
+        return (0..<count).map { _ in .stub() }
+    }
+}
+
+extension MutableCollection where Element: Stubbable {
+    func setting<T>(_ keyPath: WritableKeyPath<Element, T>,
+                    to value: T) -> Self {
+        var collection = self
+
+        for index in collection.indices {
+            let element = collection[index]
+            collection[index] = element.setting(keyPath, to: value)
+        }
+
+        return collection
+    }
 }

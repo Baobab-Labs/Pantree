@@ -21,7 +21,9 @@ public struct BoundedNumber {
                 do {
                     let clampedValue = try value.clamp(between: minimumValue ?? -.infinity, maximumValue ?? .infinity)
                     number = clampedValue
-                    Logging.logger.trace("Value '\(value)' clamped to '\(clampedValue)'")
+                    if value != clampedValue {
+                        Logging.logger.trace("Value '\(value)' clamped to '\(clampedValue)'")
+                    }
                 } catch ArithmeticError.InvalidBounds {
                     Logging.logger.error("Attempted to clamp value with invalid bounds. Result is `nil`.")
                     number = nil
@@ -42,3 +44,4 @@ public struct BoundedNumber {
 }
 
 extension BoundedNumber : Codable { }
+extension BoundedNumber : Hashable { }
